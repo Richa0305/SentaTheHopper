@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        var jackIdleImages = ["Idle_1","Idle_2","Idle_3","Idle_4","Idle_5","Idle_6","Idle_7","Idle_8","Idle_9","Idle_10"]
+        let jackIdleImages = ["Idle_1","Idle_2","Idle_3","Idle_4","Idle_5","Idle_6","Idle_7","Idle_8","Idle_9","Idle_10"]
         var images = [UIImage]()
         for image in jackIdleImages{
             images.append(UIImage(named: image)!)

@@ -18,10 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="se6-Q3-FxZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg1" translatesAutoresizingMaskIntoConstraints="NO" id="se6-Q3-FxZ">
                                 <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jack" translatesAutoresizingMaskIntoConstraints="NO" id="DTR-L8-uPO">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Santa1" translatesAutoresizingMaskIntoConstraints="NO" id="DTR-L8-uPO">
                                 <rect key="frame" x="92" y="65.5" width="183" height="244"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="244" id="fzd-vD-aJk">
@@ -35,13 +35,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ul5-4O-z7l" customClass="ViewDesignable" customModule="LittleHopper" customModuleProvider="target">
                                 <rect key="frame" x="283" y="65.5" width="364" height="91"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jack O Hopper" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGO-pG-DFU">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hop Santa Hop" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGO-pG-DFU">
                                         <rect key="frame" x="20" y="20" width="324" height="51"/>
-                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="40"/>
-                                        <color key="textColor" red="0.15279598761617197" green="1" blue="0.97497641637975752" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="43"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=compact-widthClass=compact">
-                                            <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="32"/>
+                                            <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="36"/>
                                         </variation>
                                     </label>
                                 </subviews>
@@ -115,7 +115,7 @@
                                 <variation key="heightClass=regular-widthClass=regular" constant="-300"/>
                             </constraint>
                             <constraint firstItem="6PZ-Hc-pOx" firstAttribute="top" secondItem="ul5-4O-z7l" secondAttribute="bottom" constant="31" id="Kn4-RJ-oEy"/>
-                            <constraint firstItem="se6-Q3-FxZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WLD-3t-5G7"/>
+                            <constraint firstItem="se6-Q3-FxZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WLD-3t-5G7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="se6-Q3-FxZ" secondAttribute="trailing" id="ZWv-ez-tdj"/>
                             <constraint firstItem="ul5-4O-z7l" firstAttribute="top" secondItem="DTR-L8-uPO" secondAttribute="top" id="ett-SI-ufe">
                                 <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
@@ -142,14 +142,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="86l-qp-8o2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg1" translatesAutoresizingMaskIntoConstraints="NO" id="86l-qp-8o2">
                                 <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jack" translatesAutoresizingMaskIntoConstraints="NO" id="KWK-VM-zik">
-                                <rect key="frame" x="258.5" y="59" width="150" height="197"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Idle_11" translatesAutoresizingMaskIntoConstraints="NO" id="KWK-VM-zik">
+                                <rect key="frame" x="183.5" y="59" width="300" height="197"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="197" id="Ovb-jQ-fkK"/>
-                                    <constraint firstAttribute="width" constant="150" id="vmK-Sc-gd5"/>
+                                    <constraint firstAttribute="height" constant="197" id="Ovb-jQ-fkK">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="297"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="300" id="vmK-Sc-gd5">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="250"/>
+                                    </constraint>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="iyO-Ld-MMi">
@@ -158,7 +162,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xt-kz-Yup">
                                         <rect key="frame" x="0.0" y="0.0" width="155.5" height="120"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="30"/>
-                                        <state key="normal" title="Had" backgroundImage="pumpkin4"/>
+                                        <state key="normal" title="Had" backgroundImage="gift2"/>
                                         <connections>
                                             <action selector="targetTouchAction:" destination="GS8-SI-uGv" eventType="touchUpInside" id="i46-cu-DOn"/>
                                         </connections>
@@ -166,7 +170,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gy-vd-mAj">
                                         <rect key="frame" x="205.5" y="0.0" width="156" height="120"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="30"/>
-                                        <state key="normal" title="She" backgroundImage="pumpkin4"/>
+                                        <state key="normal" title="She" backgroundImage="gift4"/>
                                         <connections>
                                             <action selector="targetTouchAction:" destination="GS8-SI-uGv" eventType="touchUpInside" id="hbH-rD-eo5"/>
                                         </connections>
@@ -174,20 +178,22 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYV-hB-QqF">
                                         <rect key="frame" x="411.5" y="0.0" width="155.5" height="120"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="30"/>
-                                        <state key="normal" title="Hello" backgroundImage="pumpkin4"/>
+                                        <state key="normal" title="Hello" backgroundImage="gift5"/>
                                         <connections>
                                             <action selector="targetTouchAction:" destination="GS8-SI-uGv" eventType="touchUpInside" id="lQk-iI-2fc"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="e6G-6X-ht5"/>
+                                    <constraint firstAttribute="height" constant="120" id="e6G-6X-ht5">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="250"/>
+                                    </constraint>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="86l-qp-8o2" firstAttribute="top" secondItem="noS-R7-ETA" secondAttribute="top" id="H4C-4o-fUq"/>
+                            <constraint firstItem="86l-qp-8o2" firstAttribute="top" secondItem="GPA-D4-eXQ" secondAttribute="top" id="H4C-4o-fUq"/>
                             <constraint firstItem="86l-qp-8o2" firstAttribute="leading" secondItem="noS-R7-ETA" secondAttribute="leading" id="Tpb-Fd-X6A"/>
                             <constraint firstItem="noS-R7-ETA" firstAttribute="trailing" secondItem="86l-qp-8o2" secondAttribute="trailing" id="UEv-yD-OOH"/>
                             <constraint firstItem="noS-R7-ETA" firstAttribute="bottom" secondItem="86l-qp-8o2" secondAttribute="bottom" id="Za8-d7-Z7N"/>
@@ -204,18 +210,172 @@
                         <outlet property="p1" destination="5Xt-kz-Yup" id="mov-On-ccj"/>
                         <outlet property="p2" destination="7gy-vd-mAj" id="foT-mK-gh8"/>
                         <outlet property="p3" destination="rYV-hB-QqF" id="HLx-A9-opQ"/>
+                        <segue destination="s7m-vn-tnM" kind="show" identifier="win" id="96z-ya-VDF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29Y-rZ-0uX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="673.36956521739137" y="33.333333333333336"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="QZR-JC-usC">
+            <objects>
+                <viewController id="s7m-vn-tnM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WMG-Of-Hc0">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg1" translatesAutoresizingMaskIntoConstraints="NO" id="Yoq-e7-kcc">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAU-qI-lB6" customClass="ViewDesignable" customModule="LittleHopper" customModuleProvider="target">
+                                <rect key="frame" x="392" y="20" width="255" height="91"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Win!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sfr-Vr-FGt">
+                                        <rect key="frame" x="20" y="20" width="215" height="51"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="50"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Sfr-Vr-FGt" firstAttribute="leading" secondItem="eAU-qI-lB6" secondAttribute="leading" constant="20" id="OAL-9R-rHu"/>
+                                    <constraint firstAttribute="bottom" secondItem="Sfr-Vr-FGt" secondAttribute="bottom" constant="20" id="SHG-AA-FNx"/>
+                                    <constraint firstItem="Sfr-Vr-FGt" firstAttribute="top" secondItem="eAU-qI-lB6" secondAttribute="top" constant="20" id="Yxm-OL-Uv6"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sfr-Vr-FGt" secondAttribute="trailing" constant="20" id="oQz-9E-m2z"/>
+                                    <constraint firstAttribute="height" constant="91" id="pIK-zz-XmL">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="255" id="uky-vm-dQy">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="380"/>
+                                    </constraint>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n5u-Ej-iIi" customClass="ViewDesignable" customModule="LittleHopper" customModuleProvider="target">
+                                <rect key="frame" x="20" y="20" width="180" height="91"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bravo!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWs-Qu-W28">
+                                        <rect key="frame" x="20" y="20" width="140" height="51"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="32"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="50"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="NWs-Qu-W28" firstAttribute="top" secondItem="n5u-Ej-iIi" secondAttribute="top" constant="20" id="499-0k-QWF"/>
+                                    <constraint firstAttribute="height" constant="91" id="a0v-yR-Ndt">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                                    </constraint>
+                                    <constraint firstItem="NWs-Qu-W28" firstAttribute="leading" secondItem="n5u-Ej-iIi" secondAttribute="leading" constant="20" id="etO-aT-ycA"/>
+                                    <constraint firstAttribute="bottom" secondItem="NWs-Qu-W28" secondAttribute="bottom" constant="20" id="lKT-fw-aWk"/>
+                                    <constraint firstAttribute="trailing" secondItem="NWs-Qu-W28" secondAttribute="trailing" constant="20" id="nUE-9e-auo"/>
+                                    <constraint firstAttribute="width" constant="180" id="v5b-AO-5vT">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="280"/>
+                                    </constraint>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Santa1" translatesAutoresizingMaskIntoConstraints="NO" id="q2W-bn-WIv">
+                                <rect key="frame" x="248.5" y="112.5" width="170" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="EaS-xw-9dv">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="300"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="190" id="XMj-ZD-Z5B">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="325"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6TL-aH-O5i" customClass="ButtonDesignable" customModule="LittleHopper" customModuleProvider="target">
+                                <rect key="frame" x="517" y="157.5" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                                <state key="normal" image="play-button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dr-Ba-m3n" customClass="ButtonDesignable" customModule="LittleHopper" customModuleProvider="target">
+                                <rect key="frame" x="50" y="157.5" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Uby-XW-1aH">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="100" id="fbY-W4-psb">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                                    </constraint>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                                <state key="normal" image="cart"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Yoq-e7-kcc" firstAttribute="leading" secondItem="31r-Eg-0Bz" secondAttribute="leading" id="8Kt-FD-9Vg"/>
+                            <constraint firstItem="q2W-bn-WIv" firstAttribute="centerX" secondItem="Yoq-e7-kcc" secondAttribute="centerX" id="Bsu-LT-wc3"/>
+                            <constraint firstItem="31r-Eg-0Bz" firstAttribute="trailing" secondItem="6TL-aH-O5i" secondAttribute="trailing" constant="50" id="FVa-uf-DBY">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
+                            <constraint firstItem="3dr-Ba-m3n" firstAttribute="leading" secondItem="31r-Eg-0Bz" secondAttribute="leading" constant="50" id="Kwz-u5-0sE">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
+                            <constraint firstItem="Yoq-e7-kcc" firstAttribute="trailing" secondItem="31r-Eg-0Bz" secondAttribute="trailing" id="MtK-QE-yQz"/>
+                            <constraint firstItem="Yoq-e7-kcc" firstAttribute="top" secondItem="WMG-Of-Hc0" secondAttribute="top" id="OB2-aw-DS0"/>
+                            <constraint firstItem="eAU-qI-lB6" firstAttribute="top" secondItem="31r-Eg-0Bz" secondAttribute="top" constant="20" id="OY4-ih-fes"/>
+                            <constraint firstItem="Yoq-e7-kcc" firstAttribute="bottom" secondItem="31r-Eg-0Bz" secondAttribute="bottom" id="RFR-ib-ufG"/>
+                            <constraint firstItem="31r-Eg-0Bz" firstAttribute="trailing" secondItem="eAU-qI-lB6" secondAttribute="trailing" constant="20" id="T6k-6D-ofX"/>
+                            <constraint firstItem="q2W-bn-WIv" firstAttribute="centerY" secondItem="Yoq-e7-kcc" secondAttribute="centerY" constant="20" id="YqZ-KG-Npj"/>
+                            <constraint firstItem="n5u-Ej-iIi" firstAttribute="leading" secondItem="31r-Eg-0Bz" secondAttribute="leading" constant="20" id="b6L-g3-Fsi"/>
+                            <constraint firstItem="3dr-Ba-m3n" firstAttribute="width" secondItem="6TL-aH-O5i" secondAttribute="width" id="bOO-72-hxc"/>
+                            <constraint firstItem="3dr-Ba-m3n" firstAttribute="centerY" secondItem="q2W-bn-WIv" secondAttribute="centerY" id="bjP-4u-ryC"/>
+                            <constraint firstItem="6TL-aH-O5i" firstAttribute="centerY" secondItem="q2W-bn-WIv" secondAttribute="centerY" id="f26-X7-7tx"/>
+                            <constraint firstItem="3dr-Ba-m3n" firstAttribute="height" secondItem="6TL-aH-O5i" secondAttribute="height" id="pMl-Zu-K9J"/>
+                            <constraint firstItem="n5u-Ej-iIi" firstAttribute="top" secondItem="31r-Eg-0Bz" secondAttribute="top" constant="20" id="v68-vr-btI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="31r-Eg-0Bz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o0D-t5-ISz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1378.56071964018" y="23.199999999999999"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="bg" width="615" height="491"/>
+        <image name="Idle_11" width="934" height="641"/>
+        <image name="Santa1" width="601" height="720"/>
+        <image name="bg1" width="86.792724609375" height="84"/>
         <image name="cart" width="150" height="123"/>
-        <image name="jack" width="150" height="197.25"/>
+        <image name="gift2" width="200" height="226"/>
+        <image name="gift4" width="200" height="218"/>
+        <image name="gift5" width="200" height="225"/>
         <image name="play-button" width="100" height="100"/>
-        <image name="pumpkin4" width="862" height="720"/>
     </resources>
 </document>
