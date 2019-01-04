@@ -21,7 +21,7 @@
 
 /* Begin PBXFileReference section */
 		DA0AD09821BD419300A3046B /* Levels.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Levels.plist; sourceTree = "<group>"; };
-		DA2C959121B58B2B000920BE /* LittleHopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleHopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2C959121B58B2B000920BE /* SentaTheHopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentaTheHopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2C959421B58B2B000920BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA2C959621B58B2B000920BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA2C959921B58B2B000920BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		DA2C958821B58B2B000920BE = {
 			isa = PBXGroup;
 			children = (
-				DA2C959321B58B2B000920BE /* LittleHopper */,
+				DA2C959321B58B2B000920BE /* SentaTheHopper */,
 				DA2C959221B58B2B000920BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,12 +84,12 @@
 		DA2C959221B58B2B000920BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA2C959121B58B2B000920BE /* LittleHopper.app */,
+				DA2C959121B58B2B000920BE /* SentaTheHopper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA2C959321B58B2B000920BE /* LittleHopper */ = {
+		DA2C959321B58B2B000920BE /* SentaTheHopper */ = {
 			isa = PBXGroup;
 			children = (
 				DA0AD09721BD417300A3046B /* UILayout */,
@@ -99,7 +99,7 @@
 				DA2C95A321B58B2E000920BE /* Info.plist */,
 				DA2C959B21B58B2B000920BE /* LittleHopper.xcdatamodeld */,
 			);
-			path = LittleHopper;
+			path = SentaTheHopper;
 			sourceTree = "<group>";
 		};
 		DA2C95A921B5A2E3000920BE /* Designables */ = {
@@ -114,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA2C959021B58B2B000920BE /* LittleHopper */ = {
+		DA2C959021B58B2B000920BE /* SentaTheHopper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA2C95A621B58B2E000920BE /* Build configuration list for PBXNativeTarget "LittleHopper" */;
+			buildConfigurationList = DA2C95A621B58B2E000920BE /* Build configuration list for PBXNativeTarget "SentaTheHopper" */;
 			buildPhases = (
 				DA2C958D21B58B2B000920BE /* Sources */,
 				DA2C958E21B58B2B000920BE /* Frameworks */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = LittleHopper;
+			name = SentaTheHopper;
 			productName = LittleHopper;
-			productReference = DA2C959121B58B2B000920BE /* LittleHopper.app */;
+			productReference = DA2C959121B58B2B000920BE /* SentaTheHopper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA2C958C21B58B2B000920BE /* Build configuration list for PBXProject "LittleHopper" */;
+			buildConfigurationList = DA2C958C21B58B2B000920BE /* Build configuration list for PBXProject "SentaTheHopper" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA2C959021B58B2B000920BE /* LittleHopper */,
+				DA2C959021B58B2B000920BE /* SentaTheHopper */,
 			);
 		};
 /* End PBXProject section */
@@ -336,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZHF752NSR5;
-				INFOPLIST_FILE = LittleHopper/Info.plist;
+				INFOPLIST_FILE = SentaTheHopper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,7 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZHF752NSR5;
-				INFOPLIST_FILE = LittleHopper/Info.plist;
+				INFOPLIST_FILE = SentaTheHopper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -369,7 +369,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA2C958C21B58B2B000920BE /* Build configuration list for PBXProject "LittleHopper" */ = {
+		DA2C958C21B58B2B000920BE /* Build configuration list for PBXProject "SentaTheHopper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA2C95A421B58B2E000920BE /* Debug */,
@@ -378,7 +378,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA2C95A621B58B2E000920BE /* Build configuration list for PBXNativeTarget "LittleHopper" */ = {
+		DA2C95A621B58B2E000920BE /* Build configuration list for PBXNativeTarget "SentaTheHopper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA2C95A721B58B2E000920BE /* Debug */,
